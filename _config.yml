@@ -1,12 +1,14 @@
 # Site wide configuration
 
-title: Site Title
-locale: en_US
-description: Describe your website here.
+title: Mozilla El Salvador
+locale: es_SV
+description: Sitio web de la comunidad Mozilla El Salvador.
 logo: site-logo.png
 search: true
-url: http://localhost:4000
-
+#url de desarrollo
+#url: http://localhost:4000
+#url en produccion
+url: http://mozillaSv.github.io
 # Jekyll configuration
 
 permalink:   /:categories/:title/
@@ -31,22 +33,22 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 # Site owner
 owner:
-  name: Your Name
+  name: MozillaSv
   avatar: bio-photo.jpg
-  email: you@email.com
+  email:  mozillaelsalvador@gmail.com
   disqus-shortname:
-  twitter: #username
-  facebook: #username
-  github: #username
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
+  twitter: mozelsalvador
+  facebook: mozillaelsalvador
+  github: mozillaSv
+  #stackexchange: #http://stackoverflow.com/users/123456/username
+  #linkedin: #username
+  #instagram: #username
+  #flickr: #username
+  #tumblr: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-59497680-1
     verify:
     ad-client:
-    ad-slot: 
+    ad-slot:
   bing-verify:

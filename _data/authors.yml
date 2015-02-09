@@ -1,20 +1,29 @@
 # Authors
 
-billy_rick:
-  name: Billy Rick
-  web: http://thewhip.com
-  email: billy@rick.com
-  bio: "What do you want, jewels? I am a very extravagant man."
-  avatar: bio-photo-2.jpg
-  twitter: extravagantman
+carlos_carcamo:
+  name: Carlos Cárcamo
+  web: http://carloscarcamo.me/
+  email: carloscarcamo.m@gmail.com
+  bio: "El desarrollo no es material es un estado de conciencia mental"
+  avatar: carlos-carcamo.jpg
+  twitter: _carloscarcamo_
   google:
-    plus: BillyRick
+    plus: CarlosCarcamo
 
-cornelius_fiddlebone:
-  name: Cornelius Fiddlebone
-  email: cornelius@thewhip.com
-  bio: "I ordered what?"
+andrews_godinez:
+  name: Andres Godinez
+  email: agodinez@cshluesocc.org
+  bio: "???"
   avatar: bio-photo.jpg
-  twitter: rhymeswithsackit
-  google:
-    plus: CorneliusFiddlebone
+  #twitter:
+  #google:
+  #  plus: CorneliusFiddlebone
+
+eduardo_valencia:
+  name: Eduardo Valencia
+  email: eduardovalencia@cshluesocc.org
+  bio: "????"
+  avatar: bio-photo.jpg
+  #twitter: rhymeswithsackit
+  #google:
+  #  plus: CorneliusFiddlebone

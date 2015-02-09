@@ -1,30 +1,49 @@
-# So Simple Theme
+Sitio web Mozilla El Salvador
+=====================================
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+##Prerrequisitos para el desarrollo de la web
+Antes que nada debemos tener instalado lo siguiente:
 
-[![Build Status](https://travis-ci.org/mmistakes/so-simple-theme.svg?branch=master)](https://travis-ci.org/mmistakes/so-simple-theme)
+* [ruby](https://www.ruby-lang.org/en/documentation/installation/)
+* [Bundler](http://bundler.io/)
+* [Jekyll](http://jekyllrb.com/docs/installation/)
 
-## So Simple Theme is all about:
+##Instalar dependencias:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
-* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
-* Support for Disqus Comments
 
-![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
+```shell
+$ bundle install
+```
 
-See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+##Configuración:
+Antes que nada para una mejor compresión de como esta formado la estructura de archivos y directorios de este proyecto y jekyll en general,
+dirigirse a la [documentación oficial de jekyll](http://jekyllrb.com/docs/home/).
 
----
+A continuación una lista de los archivos de configuración más importantes en este proyecto:
 
-## Getting Started
+* _config.yml, contiene la configuración general del proyecto.
+* _data/navigation.yml, los links de navegación van en este archivo.
+* _data/authors.yml, la lista de autores de articulos, post, tutos, etc.
 
-So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+##Probar el sitio web localmente:
+Primero compilamos el proyecto:
 
-To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
+```shell
+$ bundle exec jekyll build
+```
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Luego
 
+```shell
+$ bundle exec jekyll serve
+```
+Listo, ahora para ver el sitio web vamos a [http://localhost:4000](http://localhost:4000).
+
+##Crear posts
+Para crear post jekyll usa el lenguaje de marcado [Markdown](http://es.wikipedia.org/wiki/Markdown), los post, articulos, etc, se deben escribir en este formato, ver el directorio **_post** para ejemplo.
+
+##Desarrollo
+Pendiente...
+
+
+**Nota:** El tema del sitio web que estamos usando se llama [So Simple Theme](https://github.com/mmistakes/so-simple-theme) y esta bajo [licencia MIT](https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE).
