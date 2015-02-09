@@ -4,10 +4,10 @@
   "homepage": "http://mozillaSv.github.io/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mozillaSv/mozillaSv.git"
+    "url": "git://github.com/mozillaSv/mozillaSv.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/mozillaSv/mozillaSv/issues"
+    "url": "https://github.com/mozillaSv/mozillaSv.github.io/issues"
   },
   "engines": {
     "node": ">= 0.10.0"

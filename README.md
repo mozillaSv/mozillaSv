@@ -1,6 +1,6 @@
 Sitio web Mozilla El Salvador
 =====================================
-[![Build Status](https://travis-ci.org/mozillaSv/mozillaSv.svg)](https://travis-ci.org/mozillaSv/mozillaSv)
+[![Build Status](https://travis-ci.org/mozillaSv/mozillaSv.github.io.svg?branch=master)](https://travis-ci.org/mozillaSv/mozillaSv.github.io)
 ##Prerrequisitos para el desarrollo de la web
 Antes que nada debemos tener instalado lo siguiente:
 
