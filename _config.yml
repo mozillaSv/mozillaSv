@@ -9,8 +9,8 @@ search: true
 #url: http://localhost:4000
 #url en produccion
 url: http://mozillaSv.github.io
-# Jekyll configuration
 
+# Jekyll configuration
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
