@@ -51,4 +51,12 @@ $(document).ready(function() {
     // make it unique to apply your CSS animations just to this exact popup
     mainClass: 'mfp-fade'
   });
+
+  // Scroll to top
+  $('#goTop').go_top({
+    'top':200,
+    'in':300,
+    'out':300,
+    'duration':2000
+  });
 });

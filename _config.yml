@@ -2,13 +2,13 @@
 
 title: Mozilla El Salvador
 locale: es_SV
-description: Sitio web de la comunidad Mozilla El Salvador.
+description: Creemos que internet debe ser público, abierto y accesible.
 logo: site-logo.png
 search: true
 #url de desarrollo
-#url: http://localhost:4000
+url: http://localhost:4000
 #url en produccion
-url: http://mozillaSv.github.io
+#url: http://mozillaSv.github.io
 
 # Jekyll configuration
 permalink:   /:categories/:title/
@@ -34,7 +34,7 @@ comments: true
 
 # Site owner
 owner:
-  name: MozillaSv
+  name: Mozilla El Salvador
   avatar: bio-photo.jpg
   email:  mozillaelsalvador@gmail.com
   disqus-shortname: mozilla-sv

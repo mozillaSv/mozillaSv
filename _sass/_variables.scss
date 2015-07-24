@@ -1,11 +1,15 @@
 // TYPOGRAPHY ================================================
-$base-font: 'source-sans-pro', sans-serif;
+ // Open Sans Font
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic);
+
+$base-font: 'Open Sans', sans-serif;
 $heading-font: $base-font;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+//$alt-font: 'volkhov', serif;
+$alt-font: $base-font;
 
-$doc-font-size: 16;
+$doc-font-size: 18;
 $doc-line-height: 24;
 
 $border-radius: 3px;
@@ -17,17 +21,33 @@ body {
   font-size: 0px + $doc-font-size;
 }
 
-
 // COLORS =====================================================
-$body-color         : #fff;
-$text-color         : #222;
+$body-color         : #FFF;
+//$text-color         : #222;
+$menu-bg-color		: #2196f3;
+$menu-bg-movile		: #2196f3;
+$text-color			: #484848;
 $base-color         : #343434;
 $comp-color         : spin($base-color, 180);
 $border-color       : #ddd;
 $white              : #fff;
 $black              : #000;
+$nav-color          : #D7D3C8;
+$nav-text-color     : #424F5A;
 $accent-color       : $black;
-$link-color         : #222;
+$link-color         : #01579b;
+
+//mozilla colors
+$charcoal-color		: #4D4E53;
+$red-color			: #C13832;
+$oragne-color		: #E66000;
+$firefox-init-color	: #E66000;
+$firefox-end-color	: #BB2200;
+$light-orange-color	: #FF9500;
+$light-blue-gray-init-color	: #EAEFF2;
+$light-blue-gray-end-color	: #D4DDE4;
+
+
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
@@ -36,6 +56,13 @@ $table-header-color           : lighten($table-background, 10);
 $table-hover-color            : darken($table-background, 2);
 $table-stripe-color           : darken($table-background, 4);
 $table-stripe-color-hover     : darken($table-stripe-color, 5);
+
+/*
+$init-color       : #64b5f6;
+$end-color         	: #e3f2fd;
+*/
+$init-color			: #eeeeee;
+$end-color			: #fafafa;
 
 
 // MEDIA QUERIES ==============================================
