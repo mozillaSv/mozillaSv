@@ -6,9 +6,9 @@ description: Creemos que internet debe ser público, abierto y accesible.
 logo: site-logo.png
 search: true
 #url de desarrollo
-url: http://localhost:4000
+#url: http://localhost:4000
 #url en produccion
-#url: http://mozillaSv.github.io
+url: http://mozillaSv.github.io
 
 # Jekyll configuration
 permalink:   /:categories/:title/
