@@ -21,46 +21,46 @@ dirigirse a la [documentación oficial de jekyll](http://jekyllrb.com/docs/struc
 Este proyecto esta formado por la siguiente estructura de archivos:
 
 
-  ├── _data/
-  |    ├── authors.yml   			# Lista de autores para el blog, quien quiera escribir deberá agregar sus datos en este archivo
-  |    └── navigation.yml         # los links de navegación del sitio
-  ├── _includes/
-  |    ├── browser-upgrade.html   # Mensaje al usuario para que instale un navegador moderno, en caso de < IE9
-  |    ├── disqus-comments.html   # Script para comentarios en Disqus
-  |    ├── feed-footer.html       # pie de pagina de post en feed
-  |    ├── footer.html            # Footer del sitio
-  |    ├── head.html              # Head del sitio
-  |    ├── navigation.html        # menú de navegación
-  |    ├── open-graph.html        # meta tags para Open Graph y Twitter cards
-  |    └── scripts.html           # Scripts
-  ├── _layouts/
-  |    ├── page.html               # Plantilla para paginas
-  |    └── post.html               # Plantilla para post
-  ├── _posts/                      # Post en formato MarkDown, ver http://bit.ly/1U2L6Em
-  ├── _sass/                       # Sass stylesheets
-  ├── _templates/                  # Usado por Octopress para definir variables YAML para nuevos posts/pages
-  ├── nosotros/                    # Pagina Nosotros
-  ├── eventos/                     # Pagina que lista los post de la categoría: eventos
-  ├── tutoriales/                  # Pagina que lista los post de la categoría: tutoriales
-  ├── assets/
-  |    ├── css/                    # stylesheets compilados
-  |    ├── fonts/                  # webfonts
-  |    └── js/
-  |        ├── _main.js            # Archivo JavaScript principal, configuración de plugin, etc
-  |        ├── plugins/            # Scripts and jQuery plugins para combinar en _main.js
-  |        ├── scripts.min.js      # _main.js + plugin scripts concatenados y minificado
-  |        └── vendor/             # vendor scripts
-  ├── blog/                        # Lista los posts
-  ├── images/                      # Imágenes para post y paginas
-  ├── 404.md                       # Pagina de error 404
-  ├── feed.xml                     # Atom feed template
-  ├── index.md                     # Index, lista los ultimos post
-  ├── Gemfile                      # Archivo de dependencia, bundler usara este archivo para instalar las dependencias
-  ├── Gruntfile.js                 # Tareas Grunt
-  ├── _config.yml                  # Configuración global del sitio
-  ├── _octopress.yml               # Configuración de octopress, ver http://bit.ly/1LPEgAO
-  ├── package.json                 # Dependencias a instalar via npm
-  └── search.json/                 # Script de búsqueda dentro del sitio
+    ├── _data/
+    |    ├── authors.yml   			# Lista de autores para el blog, quien quiera escribir deberá agregar sus datos en este archivo
+    |    └── navigation.yml         # los links de navegación del sitio
+    ├── _includes/
+    |    ├── browser-upgrade.html   # Mensaje al usuario para que instale un navegador moderno, en caso de < IE9
+    |    ├── disqus-comments.html   # Script para comentarios en Disqus
+    |    ├── feed-footer.html       # pie de pagina de post en feed
+    |    ├── footer.html            # Footer del sitio
+    |    ├── head.html              # Head del sitio
+    |    ├── navigation.html        # menú de navegación
+    |    ├── open-graph.html        # meta tags para Open Graph y Twitter cards
+    |    └── scripts.html           # Scripts
+    ├── _layouts/
+    |    ├── page.html               # Plantilla para paginas
+    |    └── post.html               # Plantilla para post
+    ├── _posts/                      # Post en formato MarkDown, ver http://bit.ly/1U2L6Em
+    ├── _sass/                       # Sass stylesheets
+    ├── _templates/                  # Usado por Octopress para definir variables YAML para nuevos posts/pages
+    ├── nosotros/                    # Pagina Nosotros
+    ├── eventos/                     # Pagina que lista los post de la categoría: eventos
+    ├── tutoriales/                  # Pagina que lista los post de la categoría: tutoriales
+    ├── assets/
+    |    ├── css/                    # stylesheets compilados
+    |    ├── fonts/                  # webfonts
+    |    └── js/
+    |        ├── _main.js            # Archivo JavaScript principal, configuración de plugin, etc
+    |        ├── plugins/            # Scripts and jQuery plugins para combinar en _main.js
+    |        ├── scripts.min.js      # _main.js + plugin scripts concatenados y minificado
+    |        └── vendor/             # vendor scripts
+    ├── blog/                        # Lista los posts
+    ├── images/                      # Imágenes para post y paginas
+    ├── 404.md                       # Pagina de error 404
+    ├── feed.xml                     # Atom feed template
+    ├── index.md                     # Index, lista los ultimos post
+    ├── Gemfile                      # Archivo de dependencia, bundler usara este archivo para instalar las dependencias
+    ├── Gruntfile.js                 # Tareas Grunt
+    ├── _config.yml                  # Configuración global del sitio
+    ├── _octopress.yml               # Configuración de octopress, ver http://bit.ly/1LPEgAO
+    ├── package.json                 # Dependencias a instalar via npm
+    └── search.json/                 # Script de búsqueda dentro del sitio
 
 
 ##Probar el sitio web localmente:
