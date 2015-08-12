@@ -5,57 +5,63 @@ excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: false
 ---
 
-<h2>Eventos</h2>
-<ul class="post-list">
-{% for post in site.categories.eventos limit:5 %}
-  <li>
-    <article>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-        <span class="entry-date">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        </span>
-        {% if post.excerpt %}
-        <span class="excerpt">{{ post.excerpt }}</span>
-        {% endif %}
-      </a>
-    </article>
-  </li>
-{% endfor %}
-</ul>
+{% if site.categories.eventos %}
+  <h2>Eventos</h2>
+  <ul class="post-list">
+  {% for post in site.categories.eventos limit:5 %}
+    <li>
+      <article>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </span>
+          {% if post.excerpt %}
+          <span class="excerpt">{{ post.excerpt }}</span>
+          {% endif %}
+        </a>
+      </article>
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
 
-<h2>Tutoriales</h2>
-<ul class="post-list">
-{% for post in site.categories.tutoriales limit:5 %}
-  <li>
-    <article>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-        <span class="entry-date">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        </span>
-        {% if post.excerpt %}
-        <span class="excerpt">{{ post.excerpt }}</span>
-        {% endif %}
-      </a>
-    </article>
-  </li>
-{% endfor %}
-</ul>
+{% if site.categories.tutoriales %}
+  <h2>Tutoriales</h2>
+  <ul class="post-list">
+  {% for post in site.categories.tutoriales limit:5 %}
+    <li>
+      <article>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </span>
+          {% if post.excerpt %}
+          <span class="excerpt">{{ post.excerpt }}</span>
+          {% endif %}
+        </a>
+      </article>
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}
 
-<h2>Blog</h2>
-<ul class="post-list">
+{% if site.categories.blog %}
+  <h2>Blog</h2>
+  <ul class="post-list">
 
-{% for post in site.categories.blog limit:5 %}
-  <li>
-    <article>
-      <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-        <span class="entry-date">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        </span>
-        {% if post.excerpt %}
-        <span class="excerpt">{{ post.excerpt }}</span>
-        {% endif %}
-      </a>
-    </article>
-  </li>
-{% endfor %}
-</ul>
+  {% for post in site.categories.blog limit:5 %}
+    <li>
+      <article>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+          <span class="entry-date">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          </span>
+          {% if post.excerpt %}
+          <span class="excerpt">{{ post.excerpt }}</span>
+          {% endif %}
+        </a>
+      </article>
+    </li>
+  {% endfor %}
+  </ul>
+{% endif %}

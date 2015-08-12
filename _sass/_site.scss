@@ -133,6 +133,10 @@ a {
     }
 }
 
+a.url-author {
+    color: $link-color !important;
+}
+
 .link-arrow {
     font-weight: 100;
     text-decoration: underline;

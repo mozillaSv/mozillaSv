@@ -256,7 +256,8 @@ body {
 span + .entry-title {
     margin-top: 0;
 }
-.entry-title {   
+.entry-title {
+    text-align: center;   
     font-size: $base-font;
     @include font-size(36,yes,36);
     font-weight: 300;
@@ -315,6 +316,7 @@ span + .entry-title {
         @include clearfix;
     }
 }
+
 .entry-content {
     @include span-columns(12);
     p:first-child {
