@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VII Encuentro Centro Americano de Software Libre"
+title: "VII Encuentro Centroamericano de Software Libre"
 modified:
 categories: blog
 excerpt: Encuentro Centroamericano de Software Libre - San Pedro Sula, Honduras 2015
