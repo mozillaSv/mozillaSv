@@ -9,6 +9,7 @@ search: true
 #url: http://localhost:4000
 #url en produccion
 url: http://mozillaSv.github.io
+secure_url: //mozillaSv.github.io
 
 # Jekyll configuration
 permalink:   /:categories/:title/
