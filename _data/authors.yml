@@ -12,18 +12,28 @@ carlos_carcamo:
 
 andrews_godinez:
   name: Andres Godinez
-  email: agodinez@cshluesocc.org
-  bio: "???"
+  web: http://andresgodinez.me/
+  email: pistilloagodinez@gmail.com
+  bio: "Miembro de Mozilla El Salvador"
   avatar: bio-photo.jpg
-  #twitter:
+  twitter: AGodinez_
   #google:
   #  plus: CorneliusFiddlebone
 
 eduardo_valencia:
   name: Eduardo Valencia
-  email: eduardovalencia@cshluesocc.org
-  bio: "????"
-  avatar: bio-photo.jpg
-  #twitter: rhymeswithsackit
+  web: http://enriquev.github.io/
+  email: kalienrique40@gmail.com
+  bio: "Miembro de Mozilla El Salvador"
+  avatar: eduardo_valencia.jpg
+  twitter: eduard_gv93
   #google:
   #  plus: CorneliusFiddlebone
+
+richard_armuelles:
+  name: Richard Armuelles
+  web: http://blog-machinarium021.rhcloud.com/
+  email: 
+  bio: "Miembro de Mozilla Panamá"
+  avatar: richard_armuelles.jpg
+  twitter: raaztux 
