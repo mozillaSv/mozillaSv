@@ -4,7 +4,7 @@ title: "Lightbeam Para Firefox"
 modified:
 categories: blog
 excerpt: Controla quién rastrea tus datos en la web
-tags: [Lightbeam, Firefox, sadd-on]
+tags: [Lightbeam, Firefox, add-on]
 author: eduardo_valencia
 comments: true
 share: true
