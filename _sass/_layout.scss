@@ -16,12 +16,12 @@ body {
     z-index: 100;
 }
 
-.navigation-wrapper {    
+.navigation-wrapper {
     border-top: 2px solid #fff;
     text-align: center;
     @include clearfix;
 
-    ul {        
+    ul {
         display: block;
         width: 100%;
         vertical-align: top;
@@ -29,17 +29,17 @@ body {
         padding: 4px 20px;
         background-color: $black;
         @include media($medium) {
-            width: auto;            
+            width: auto;
         }
         @include clearfix;
     }
-    li {        
+    li {
         display: block;
         float: left;
         list-style: none;
         text-align: center;
         @include font-size(24,no);
-        text-transform: uppercase;        
+        text-transform: uppercase;
         @include media($medium) {
             @include font-size(14,no);
         }
@@ -54,20 +54,20 @@ body {
         @include media($medium) {
             margin-bottom: 0;
             padding: 6px 10px;
-        }                
+        }
         color: $white;
         @include rounded(4px);
         &:hover {
-            background-color: lighten($black, 10);            
+            background-color: lighten($black, 10);
             color: darken($white, 10);
         }
     }
 }
 // Responsive nav toggle stuff
-#site-nav {        
+#site-nav {
     width: 100%;
-    display: none;    
-    width: 100%;    
+    display: none;
+    width: 100%;
     z-index: 1;
     @include media($medium) {
         -webkit-animation-duration: 1s;
@@ -137,22 +137,22 @@ body {
     @include media($medium) {
         margin-top: 0;
     }
-    .wrap {       
-        float: left;        
-        text-align: center;        
+    .wrap {
+        float: left;
+        text-align: center;
         width: 100%;
         clear: both;
         padding-right: 20px;
         padding-left: 20px;
-        @include media($medium) {            
+        @include media($medium) {
             padding-right: 60px;
             padding-left: 60px;
         }
         /*@include media($large) {
-        
+
         }*/
     }
-    
+
     .logo-wrap{
         text-align: center;
         width: 100%;
@@ -179,9 +179,9 @@ body {
         }
     }
 }
-.site-title {    
-    font-weight: 300;    
-    margin-bottom: 0;    
+.site-title {
+    font-weight: 300;
+    margin-bottom: 0;
     @include font-size(44);
     @include animation-duration(1s);
     @include animation-delay(.75s);
@@ -193,7 +193,7 @@ body {
     }
     @include media($large) {
         @include font-size(72,yes,74);
-    }   
+    }
     a {
         color: $text-color;
     }
@@ -203,7 +203,7 @@ body {
 }
 .site-description {
     margin-top: 0;
-    font-family: $alt-font;    
+    font-family: $alt-font;
     @include font-size(22);
     font-weight: 300;
     font-style: italic;
@@ -257,7 +257,7 @@ span + .entry-title {
     margin-top: 0;
 }
 .entry-title {
-    text-align: center;   
+    text-align: center;
     font-size: $base-font;
     @include font-size(36,yes,36);
     font-weight: 300;
@@ -318,6 +318,7 @@ span + .entry-title {
 }
 
 .entry-content {
+    text-align: justify !important;
     @include span-columns(12);
     p:first-child {
         margin-top: 0;
@@ -458,20 +459,20 @@ span + .entry-title {
 
 //iframes
 
-iframe{  
-   width: 100% !important;  
+iframe{
+   width: 100% !important;
 }
 
 // Scroll top
 #goTop{
-    padding:1em; 
+    padding:1em;
     background-color: rgba(0, 0, 0, 0.5);
     color: rgba($white, 0.5);
     @include font-size(16);
     position:fixed;
     bottom:1em;
     right:1em;
-    text-decoration:none;    
+    text-decoration:none;
     &:hover{
         @include transition;
         background-color: $black;

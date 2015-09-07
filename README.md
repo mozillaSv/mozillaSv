@@ -95,6 +95,12 @@ Para crear post vamos a usar un par de comandos que crearan una estructura base 
 $ octopress new post "Titulo del post" --dir blog
 ```
 
+Si lo anterior da error, tratar con:
+
+```
+$ bundle exec octopress new post "Titulo del post" --dir blog
+```
+
 Esto creará un archivo con un nombre formado por la fecha de creación y el titulo del post, ejemplo: 2015-07-27-hello-world.md. El archivo estara dentro de: ```_posts/blog/```.
 La ruta del archivo puede cambiar, en este caso hemos especificado con ```--dir blog``` que se cree en el directorio **blog** dentro de ```_posts/```.
 Octopress asociara ```--dir``` con una categoría por lo que hay que tomar en cuenta que en este sitio web se manejan 3 categorías:
