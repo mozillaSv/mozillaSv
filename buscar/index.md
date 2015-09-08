@@ -13,7 +13,7 @@ sitemap: false
 <!-- Search form -->
 <form method="get" action="{{ site.url }}/buscar/" data-search-form class="simple-search">
   <label for="q">Search {{ site.title }} for:</label>
-  <input type="search" name="q" id="q" placeholder="¿Qué buscas?" data-search-input id="goog-wm-qt" autofocus />
+  <input type="search" name="q" placeholder="¿Qué buscas?" data-search-input id="goog-wm-qt" autofocus />
   <input type="submit" value="Buscar" id="goog-wm-sb" />
 </form>
 
