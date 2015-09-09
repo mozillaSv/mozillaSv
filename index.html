@@ -1,67 +1,134 @@
 ---
-layout: page
+layout: page-index
 title: Lo más reciente
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 search_omit: false
 ---
+<div class="main-left">
+  {% if site.categories.eventos %}
+    <h2>Eventos</h2>
+    <ul class="post-list">
+    {% for post in site.categories.eventos limit:5 %}
+      <li>
+        <article>
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+            <span class="entry-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span>
+            {% if post.excerpt %}
+            <span class="excerpt">{{ post.excerpt }}</span>
+            {% endif %}
+          </a>
+        </article>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 
-{% if site.categories.eventos %}
-  <h2>Eventos</h2>
-  <ul class="post-list">
-  {% for post in site.categories.eventos limit:5 %}
-    <li>
-      <article>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-          <span class="entry-date">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          </span>
-          {% if post.excerpt %}
-          <span class="excerpt">{{ post.excerpt }}</span>
-          {% endif %}
+  {% if site.categories.tutoriales %}
+    <h2>Tutoriales</h2>
+    <ul class="post-list">
+    {% for post in site.categories.tutoriales limit:5 %}
+      <li>
+        <article>
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+            <span class="entry-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span>
+            {% if post.excerpt %}
+            <span class="excerpt">{{ post.excerpt }}</span>
+            {% endif %}
+          </a>
+        </article>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if site.categories.blog %}
+    <h2>Blog</h2>
+    <ul class="post-list">
+
+    {% for post in site.categories.blog limit:5 %}
+      <li>
+        <article>
+          <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
+            <span class="entry-date">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+            </span>
+            {% if post.excerpt %}
+            <span class="excerpt">{{ post.excerpt }}</span>
+            {% endif %}
+          </a>
+        </article>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  <div>
+    <h2>Productos Mozilla</h2>
+    <ul class="products">
+      <li>
+        <a href="https://www.mozilla.org/firefox/">
+          <p>Firefox</p>
+          <img src="https://lh3.googleusercontent.com/-Ibx_0bmuBz0/Ve9OsqfdbTI/AAAAAAAAAkY/bBKaJLb1wAQ/s128-Ic42/firefox.png" alt="Mozilla Firefox">
         </a>
-      </article>
-    </li>
-  {% endfor %}
-  </ul>
-{% endif %}
-
-{% if site.categories.tutoriales %}
-  <h2>Tutoriales</h2>
-  <ul class="post-list">
-  {% for post in site.categories.tutoriales limit:5 %}
-    <li>
-      <article>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-          <span class="entry-date">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          </span>
-          {% if post.excerpt %}
-          <span class="excerpt">{{ post.excerpt }}</span>
-          {% endif %}
+      </li>
+      <li>
+        <a href="http://www.mozilla.org/es-ES/firefox/os/">
+          <p>Firefox OS</p>
+          <img src="https://lh3.googleusercontent.com/-8Xtnrg2DwtY/Ve9OsvzibaI/AAAAAAAAAkI/NVNagdB6oDs/s128-Ic42/fxos.png" alt="Firefox OS">
         </a>
-      </article>
-    </li>
-  {% endfor %}
-  </ul>
-{% endif %}
-
-{% if site.categories.blog %}
-  <h2>Blog</h2>
-  <ul class="post-list">
-
-  {% for post in site.categories.blog limit:5 %}
-    <li>
-      <article>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}
-          <span class="entry-date">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          </span>
-          {% if post.excerpt %}
-          <span class="excerpt">{{ post.excerpt }}</span>
-          {% endif %}
+      </li>
+      <li>
+        <a href="https://www.marketplace.firefox.com/">
+          <p>MarketPlace</p>
+          <img src="https://lh3.googleusercontent.com/-QPSZd99ivjM/Ve9OsoyC6MI/AAAAAAAAAkc/XFX_w2EtXeE/s128-Ic42/market.png" alt="Firefox Marketplace">
         </a>
-      </article>
+      </li>
+      <li>
+        <a href="https://www.mozilla.org/thunderbird/">
+          <p>Thunderbird</p>
+          <img src="https://lh3.googleusercontent.com/-1PLpb4PEFPM/Ve9OtGqQ_FI/AAAAAAAAAkM/ELRnNkW5BHQ/s128-Ic42/thunderbird.png" alt="Mozilla Thunderbird">
+        </a>
+      </li>
+      <li>
+        <a href="https://webmaker.org/es/explore">
+          <p>Webmaker</p>
+          <img src="https://lh3.googleusercontent.com/-KLODtPaW2UU/Ve-LO_g_PXI/AAAAAAAAAlo/OoUlTtMaNog/s128-Ic42/webmaker.png" alt="Mozilla Webmaker">
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="main-right">
+  <ul class="right-bar">
+    <li>
+      <div class="textbar">
+        <h4>Colabora en Mozilla</h4>
+        <a href="https://www.mozilla.org/es-MX/contribute/">
+          <img src="https://lh3.googleusercontent.com/-AHsIeD963E4/Ve-GcFTXQ2I/AAAAAAAAAlY/NjVycvzZlAY/s480-Ic42/Mozilla-Love.png" alt="Mozilla">
+        </a>
+        <p>En Mozilla lo importante son las personas. Descubre cómo puedes colaborar, <a href="https://www.mozilla.org/es-MX/contribute/">aquí</a>.</p>
     </li>
-  {% endfor %}
+    <li>
+      <div class="textbar">
+        <h4>Ayuda con Firefox!</h4>
+        <a href="http://support.mozilla.org/es/">
+          <img src="https://lh3.googleusercontent.com/-AxCZIry8psA/Ve-E2Axd_SI/AAAAAAAAAlM/ihjEcZYtDcE/s200-Ic42/sumo.png" alt="Mozilla Support">
+        </a>
+        <p>Necesitás ayuda con Firefox?, <a href="http://support.mozilla.org/es/">aquí</a> encontrarás asistencia.</p>
+      </div>
+    </li>
+    <li>
+      <div class="textbar">
+        <h4>Boletín Firefox</h4>
+        <a href="http://www.mozilla.org/es-ES/newsletter/">
+          <img src="https://lh3.googleusercontent.com/-oVndmGR4wrM/Ve98QZI-5BI/AAAAAAAAAks/0CQDa6V75ro/s160-Ic42/newsletter.png" alt="Mozilla Newsletter">
+        </a>
+        <p><a href="http://www.mozilla.org/es-ES/newsletter/">Suscríbete</a> a Firefox y tú, el boletín mensual de Mozilla para que aproveches tu Firefox al máximo.</p>
+      </div>
+    </li>
   </ul>
-{% endif %}
+</div>

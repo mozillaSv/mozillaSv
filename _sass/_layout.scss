@@ -25,7 +25,7 @@ body {
         display: block;
         width: 100%;
         vertical-align: top;
-        margin: 0 0 50px;
+        margin: 0 0px;
         padding: 4px 20px;
         background-color: $black;
         @include media($medium) {
@@ -161,21 +161,19 @@ body {
 }
 .site-logo {
     img {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
         @include animation-duration(1s);
         @include animation-delay(.05s);
-        border: 4px solid $white;
-        @include rounded(100px);
+        border: none;
         @include media($medium) {
             width: 150px;
             height: 150px;
-            @include rounded(150px);
+            margin-top: 1rem;
         }
         @include media($large) {
             width: 200px;
             height: 200px;
-            @include rounded(200px);
         }
     }
 }
@@ -230,14 +228,46 @@ body {
     border-bottom: 1px solid lighten($black,80);
     border-bottom: 1px solid rgba($black,.10);
 }
+
+.head-all {
+  margin-top: 0px;
+  @include media($medium) {
+      margin-top: 1rem;
+  }
+  @include media($large) {
+      margin-top: 2rem;
+  }
+}
+
+.head-s1 {
+  width: 100%;
+  text-align: center;
+  @include media($small) {
+      width: 75%;
+      float: left;
+  }
+
+}
+
+.head-s2 {
+  width: 100%;
+  text-align: center;
+  @include media($small) {
+
+      width: 25%;
+      float: right;
+  }
+
+}
+
 .entry-feature-image {
-    margin: 20px 0 0;
+    margin: 0 0;
     width: 100%;
     @include media($medium) {
-        margin-top: -75px;
+        margin-top: 0px;
     }
     @include media($large) {
-        margin-top: -145px;
+        margin-top: 0px;
     }
 }
 .entry-header {
@@ -278,6 +308,13 @@ span + .entry-title {
     }
 }
 .entry-wrapper {
+    @include outer-container;
+    margin-top: 0;
+    margin-bottom: 3em;
+    padding-right: $gutter;
+    padding-left: $gutter;
+}
+.entry-wrapper-index {
     @include outer-container;
     margin-top: 0;
     margin-bottom: 3em;
@@ -353,6 +390,9 @@ span + .entry-title {
 #page {
     .entry-wrapper {
         max-width: em(760);
+    }
+    .entry-wrapper-index {
+        max-width: 90%;
     }
     .entry-title {
         text-align: center;
@@ -465,7 +505,7 @@ iframe{
 
 // Scroll top
 #goTop{
-    padding:1em;
+    padding:0.8em;
     background-color: rgba(0, 0, 0, 0.5);
     color: rgba($white, 0.5);
     @include font-size(16);
@@ -560,4 +600,84 @@ iframe{
 }
 #goog-wm-sb {
     @extend .btn;
+}
+
+// Mozilla's Products
+// --------------------------------------------------
+.products {
+  text-align: center;
+  padding-left: 0px;
+}
+.products li {
+  display: inline-block;
+  padding: 0 5px;
+  color: #01579B;
+  @include media($medium) {
+      padding: 0 10px;
+  }
+  @include media($large) {
+      padding: 0 20px;
+  }
+}
+.products li:hover {
+  color: #000;
+}
+.products li p {
+  font-weight: 400;
+}
+.products li a,
+.products li a:hover {
+  text-decoration: none;
+  border: none;
+}
+.products li img {
+  width: 70px;
+  @include media($medium) {
+      width: 80px;
+  }
+  @include media($large) {
+      width: 100px;
+  }
+}
+
+// Right Bar
+// --------------------------------------------------
+.main-left {
+  width: 100%;
+  @include media($medium) {
+      width: 100%;
+  }
+  @include media($large) {
+      width: 75%;
+      float: left;
+  }
+}
+.main-right {
+  display: none;
+  @include media($medium) {
+      display: none;
+  }
+  @include media($large) {
+      display: inline;
+      width: 20%;
+      float: right;
+  }
+}
+.right-bar {
+  text-align: center;
+  padding-left: 0px;
+}
+.right-bar li {
+  display: inline-block;
+}
+.textbar p {
+  text-align: justify;
+}
+.textbar a {
+  text-decoration: none;
+  border: none !important;
+}
+
+.textbar img {
+  width: 100px;
 }
