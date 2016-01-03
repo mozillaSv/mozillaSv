@@ -5,7 +5,7 @@ excerpt: "Primer Mozilla Maker Party El Salvador"
 categories: eventos
 tags: [eventos, maker, party]
 image:
-  feature: https://lh3.googleusercontent.com/-Mqr2ojb5g9M/Ve8zLl2h1iI/AAAAAAAAAjg/QN3uQf7VqiE/s912-Ic42/makerparty.png
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781130/MozSV/makerparty.png
   external: true
   credit: Andrés Godínez
   creditlink: http://andresgodinez.me/  

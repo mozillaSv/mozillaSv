@@ -9,9 +9,9 @@ author: eduardo_valencia
 comments: true
 share: true
 image:
-  feature: https://mozorg.cdn.mozilla.net/media/img/firefox/hello/hello-share.1e77a357e4c9.jpg
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781080/MozSV/Firefox-Hello.png
   external: true
-  credit: Mozilla org.
+  credit: Mozilla El Salvador
 date: 2015-09-07T12:16:03-06:00
 ---
 
