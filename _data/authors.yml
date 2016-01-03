@@ -10,12 +10,12 @@ carlos_carcamo:
   google:
     plus: CarlosCarcamo
 
-andrews_godinez:
-  name: Andres Godinez
+agodin3z:
+  name: Andrés Godínez
   web: http://andresgodinez.me/
   email: pistilloagodinez@gmail.com
   bio: "Miembro de Mozilla El Salvador"
-  avatar: bio-photo.jpg
+  avatar: andres_godinez.jpg
   twitter: AGodinez_
   #google:
   #  plus: CorneliusFiddlebone
@@ -33,7 +33,7 @@ eduardo_valencia:
 richard_armuelles:
   name: Richard Armuelles
   web: http://blog-machinarium021.rhcloud.com/
-  email: 
+  email:
   bio: "Miembro de Mozilla Panamá"
   avatar: richard_armuelles.jpg
-  twitter: raaztux 
+  twitter: raaztux

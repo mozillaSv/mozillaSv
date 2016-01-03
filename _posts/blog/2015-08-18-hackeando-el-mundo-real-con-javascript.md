@@ -9,9 +9,9 @@ author: richard_armuelles
 comments: true
 share: true
 image:
-  feature: https://www.mozilla-hispano.org/wp-content/uploads/firefox-os.png  
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781120/MozSV/Hackeando-con-FxOS.png
   external: true
-  credit: Mozilla Hispano  
+  credit: Mozilla El Salvador  
 date: 2015-08-21T17:48:23-06:00
 ---
 
