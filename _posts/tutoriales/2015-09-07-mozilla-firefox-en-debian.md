@@ -3,13 +3,13 @@ layout: post
 title: "Instalar Mozilla Firefox en Debian"
 modified:
 categories: tutoriales
-excerpt: Como installar Mozilla Firefox en Debian GNU/Linux
+excerpt: Como instalar Mozilla Firefox en Debian GNU/Linux
 tags: [Mozilla, Firefox, Debian]
 author: carlos_carcamo
 comments: true
 share: true
 image:
-  feature: http://i.imgur.com/w2tZF0S.png
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781090/MozSV/moz-debian.png
   external: true
   credit: Mozilla El Salvador
 date: 2015-09-08T15:08:34-06:00

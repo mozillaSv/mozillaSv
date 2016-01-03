@@ -9,7 +9,7 @@ author: carlos_carcamo
 comments: true
 share: true
 image:
-  feature: http://i.imgur.com/Nn3TpHg.jpg?1
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781111/MozSV/ECSL.png
   external: true
   credit: Software Libre Centroamerica
 date: 2015-08-12T12:50:28-06:00
@@ -61,4 +61,3 @@ El evento estuvo lleno de charlas, talleres y mesas de diálogo con temas variad
 El próximo año, la sede del evento será el país hermano de Nicaragua, los compañer@s Mozilleros de Nicaragua estarán colaborando junto con otras comunidades en la organización de la octava edición del ECSL. Esperamos poder asistir y compartir de nuevo esta experiencia.
 
 Para finalizar, agradecemos a Mozilla por la oportunidad que nos dio de poder asistir a este excelente evento en el que pudimos aprender mucho y que nos motiva a seguir trabajando difundiendo las tecnologías libres y la web abierta para todos y todas.
-

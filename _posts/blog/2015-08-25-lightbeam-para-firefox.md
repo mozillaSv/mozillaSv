@@ -9,9 +9,9 @@ author: eduardo_valencia
 comments: true
 share: true
 image:
-  feature: http://i.imgur.com/PpnfHie.jpg
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781086/MozSV/lightbeam.png
   external: true
-  credit: lightbeam
+  credit: Mozilla El Salvador
 date: 2015-08-25T14:53:06-06:00
 ---
 

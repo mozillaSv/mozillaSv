@@ -5,12 +5,13 @@ excerpt: "Primer Mozilla Maker Party El Salvador"
 categories: eventos
 tags: [eventos, maker, party]
 image:
-  feature: http://media.mozillarian.org/2014/08/mozilla-maker-party-newcastle-mozilla-maker-party-800x360.jpg
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781130/MozSV/makerparty.png
   external: true
-  credit: Mozilla  
+  credit: Andrés Godínez
+  creditlink: http://andresgodinez.me/  
 comments: true
 share: true
---- 
+---
 
 Siempre queriendo mostrar tu lado creativo, ven a la PRIMERA MAKER PARTY de El Salvador. ÚNETE a la comunidad de Mozilla El Salvador y aprende sobre una la Web abierta y de todos. VEN SE PARTE DE LA FIESTA.
 
