@@ -4,7 +4,7 @@ title: "Hackeando El Mundo Real Con Javascript"
 modified:
 categories: blog
 excerpt: Javascript creativo, el poder de Firefox OS
-tags: [javascript, firefox OS, ECSL]
+tags: [JavaScript, Firefox OS, ECSL]
 author: richard_armuelles
 comments: true
 share: true
