@@ -2,7 +2,7 @@
 layout: post
 title: Hola Mundo Con Rust
 modified:
-categories: blog
+categories: tutoriales
 excerpt: Un lenguaje seguro, concurrente y práctico.
 tags: [Mozilla, Rust, Desarrollo, Programación]
 author: eduardo_valencia
