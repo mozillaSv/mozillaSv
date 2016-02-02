@@ -26,8 +26,8 @@ Ven y participa en el MozDev Party, donde podrás aprender sobre el desarrollo c
 
 ### Agenda:
 
--- 9:30 pm - 10:30 pm : Ionic: "Back-End para móviles" <br>
--- 10:30 pm - 22:30 pm : Mozilla: "¿Qué es el proyecto Open Badges de Mozilla?" <br>
+-- 9:00 am - 10:00 am : Ionic: "Back-End para móviles" <br>
+-- 10:30 am - 11:30 am : Mozilla: "¿Qué es el proyecto Open Badges de Mozilla?" <br>
 -- 1:30 pm - 2:30 pm : Nodebots: "Robótica sencilla con NodeJS" <br>
 -- 2:30 pm - 3:30 pm : Docker: "Dockerizando web apps"
 
