@@ -33,6 +33,8 @@ Ven y participa en el MozDev Party, donde podrás aprender sobre el desarrollo c
 
 **Fecha:** Sábado 13 de Febrero de 2015<br>
 **Hora:** de 9:00am - 4:00 pm<br>
+**Evento en Facebook:** [http://on.fb.me/1X3mnRo](http://on.fb.me/1X3mnRo) <br>
+**Evento en Meetup:** [http://bit.ly/1R28Mcy](http://bit.ly/1R28Mcy) <br>
 **Lugar:** Hub170<br>
 **Dirección:** Calle Lorena y Calle Roma #170, San Salvador<br>
 **Como llegar:** <br>
