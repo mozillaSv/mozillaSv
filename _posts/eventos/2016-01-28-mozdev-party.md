@@ -31,7 +31,7 @@ Ven y participa en el MozDev Party, donde podrás aprender sobre el desarrollo c
 -- 1:30 pm - 2:30 pm : Nodebots: "Robótica sencilla con NodeJS" <br>
 -- 2:30 pm - 3:30 pm : Docker: "Dockerizando web apps"
 
-**Fecha:** Sábado 13 de Febrero de 2015<br>
+**Fecha:** Sábado 13 de Febrero de 2016<br>
 **Hora:** de 9:00am - 4:00 pm<br>
 **Evento en Facebook:** [http://on.fb.me/1X3mnRo](http://on.fb.me/1X3mnRo) <br>
 **Evento en Meetup:** [http://bit.ly/1R28Mcy](http://bit.ly/1R28Mcy) <br>
