@@ -33,6 +33,7 @@ Ven y participa en el MozDev Party, donde podrás aprender sobre el desarrollo c
 
 **Fecha:** Sábado 13 de Febrero de 2016<br>
 **Hora:** de 9:00am - 4:00 pm<br>
+**Formulario de Registro:** [http://goo.gl/forms/5ajFbL3n9W](http://goo.gl/forms/5ajFbL3n9W) <br>
 **Evento en Facebook:** [http://on.fb.me/1X3mnRo](http://on.fb.me/1X3mnRo) <br>
 **Evento en Meetup:** [http://bit.ly/1R28Mcy](http://bit.ly/1R28Mcy) <br>
 **Lugar:** Hub170<br>
