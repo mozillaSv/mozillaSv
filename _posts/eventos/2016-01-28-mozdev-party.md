@@ -19,6 +19,7 @@ share: true
 .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 a.link { border-bottom: none !important; } 
 a img.communities { width: 115px !important; margin: 10px; }
+a img.sponsors { width: 115px !important; margin: 10px; }
 p.center { text-align: center; }
 </style>
 
@@ -43,16 +44,19 @@ Ven y participa en el MozDev Party, donde podrás aprender sobre el desarrollo c
 
 ### Invita:
 
-<p class="center"><a class="link" href="http://mozillasv.github.io/"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003577/logos/mozsv.png" alt="Mozilla El Salvador" style="height:150px;"></a></p>
+<p class="center"><a class="link" href="http://mozillasv.github.io/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003577/logos/mozsv.png" alt="Mozilla El Salvador" style="height:150px;"></a></p>
 
 
 ### Comunidades Invitadas:
 <p class="center">
-<a class="link" href="http://www.meetup.com/es-ES/Docker-El-Salvador/"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/docker-sv.png" alt="Docker El Salvador" class="communities"></a>
-<a class="link" href="https://github.com/ionicsv"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/ionic-sv.png" alt="Ionic El Salvador" class="communities"></a>
-<a class="link" href="http://nodebots-sv.github.io/"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/nodebots-sv.png" alt="NodeBots El Salvador" class="communities"></a></p>
+<a class="link" href="http://www.meetup.com/es-ES/Docker-El-Salvador/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/docker-sv.png" alt="Docker El Salvador" class="communities"></a>
+<a class="link" href="https://github.com/ionicsv" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/ionic-sv.png" alt="Ionic El Salvador" class="communities"></a>
+<a class="link" href="http://nodebots-sv.github.io/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1454003578/logos/nodebots-sv.png" alt="NodeBots El Salvador" class="communities"></a></p>
 
 <br><br>
 ### Patrocinadores:
 
-<p class="center"> Anímate a ser nuestro primer patrocinador! :)</p>
+<p class="center">
+<a class="link" href="http://www.hub170.com/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1455560107/logos/hub170.png" alt="Hub170" class="sponsors"></a>
+<a class="link" href="https://webslinder.com/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1455559353/logos/webslinder.png" alt="Webslinder" class="sponsors"></a>
+<a class="link" href="http://facebook.com/LabCT-939901992733891/" target="_blank"><img src="http://res.cloudinary.com/djpqkjsmr/image/upload/v1455560106/logos/LabCT.png" alt="LabCT" class="sponsors"></a></p>
