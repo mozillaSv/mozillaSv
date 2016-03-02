@@ -9,7 +9,7 @@ author: eduardo_valencia
 comments: true
 share: true
 image:
-  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1453999076/MozSV/privacymonth.png
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1454084573/MozSV/privacymonth.png
   external: true
   credit: Mozilla El Salvador
 date: 2016-01-28T09:46:10-06:00
