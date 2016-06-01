@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "I Encuentro Centroamericano de Mozilla"
-excerpt: "Un dia para hablar y/o desarrollar con tecnologías libres"
+excerpt: "Conoce sobre los proyectos, actividades y eventos que se están realizando a nivel centroamericano"
 modified:
 categories: eventos
 tags: []
