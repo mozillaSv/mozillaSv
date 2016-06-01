@@ -8,16 +8,16 @@ image:
   feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1454002799/MozSV/mozdev.png
   external: true
   credit: Andrés Godínez
-  creditlink: http://andresgodinez.me/  
+  creditlink: http://andresgodinez.com/  
 comments: true
 share: true
 ---
 <style>
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
-.embed-container iframe, 
-.embed-container object, 
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe,
+.embed-container object,
 .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-a.link { border-bottom: none !important; } 
+a.link { border-bottom: none !important; }
 a img.communities { width: 115px !important; margin: 10px; }
 a img.sponsors { width: 115px !important; margin: 10px; }
 p.center { text-align: center; }

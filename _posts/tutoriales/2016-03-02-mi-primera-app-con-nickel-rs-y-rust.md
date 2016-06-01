@@ -12,7 +12,7 @@ image:
   feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1456935246/MozSV/nickel_rust.png
   external: true
   credit: Andrés Godínez
-  creditlink: http://andresgodinez.me/  
+  creditlink: http://andresgodinez.com/  
 date: 2016-03-02T09:37:21-06:00
 ---
 
@@ -40,7 +40,7 @@ $ cargo new nickel-demo --bin && cd nickel-demo
 
 #### <i class="icon-file"></i> Cargo.toml
 
-El archivo Cargo.toml es el manifiesto que describe todas las dependencias de la aplicación y también le dice a Cargo cómo construir el proyecto. 
+El archivo Cargo.toml es el manifiesto que describe todas las dependencias de la aplicación y también le dice a Cargo cómo construir el proyecto.
 
 ```toml
 [dependencies]
@@ -48,7 +48,7 @@ nickel = "*"
 ```
 
 Nuestro archivo Cargo.toml debe tener la siguiente estructura:
- 
+
 ```toml    
 [package]
 name = "my-demo"
@@ -73,7 +73,7 @@ Inicialmente nuestro archivo main.rs trae la sintaxis básica de un hola mundo, 
 ```rust
 #[macro_use] extern crate nickel;
 use nickel::Nickel;
-	
+
 fn main() {
 	let mut server = Nickel::new();
 
@@ -82,7 +82,7 @@ fn main() {
 	        "Hola Mozilleros!"
 	    }
 	});
-	
+
 	server.listen("127.0.0.1:6767");
 	}
 ```
