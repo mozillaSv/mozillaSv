@@ -8,7 +8,7 @@ image:
   feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1451781130/MozSV/makerparty.png
   external: true
   credit: Andrés Godínez
-  creditlink: http://andresgodinez.me/  
+  creditlink: http://andresgodinez.com/  
 comments: true
 share: true
 ---
