@@ -9,7 +9,7 @@ author: agodin3z
 comments: true
 share: true
 image:
-  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1464795905/MozSV/1ecm.png
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1467678556/MozSV/ecm_nic.png
   external: true
   credit: Mozilla El Salvador
 date: 2016-06-23T11:07:00-06:00

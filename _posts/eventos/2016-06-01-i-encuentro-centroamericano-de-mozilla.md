@@ -6,7 +6,7 @@ modified:
 categories: eventos
 tags: []
 image:
-  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1464795905/MozSV/1ecm.png
+  feature: http://res.cloudinary.com/djpqkjsmr/image/upload/v1467678556/MozSV/ecm_nic.png
   external: true
   credit: Mozilla El Salvador
 ---
