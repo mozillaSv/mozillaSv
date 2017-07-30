@@ -1,20 +1,20 @@
 Sitio web Mozilla El Salvador
 =====================================
 [![Build Status](https://travis-ci.org/mozillaSv/mozillaSv.github.io.svg?branch=master)](https://travis-ci.org/mozillaSv/mozillaSv.github.io)
-##Prerrequisitos para el desarrollo de la web
+## Prerrequisitos para el desarrollo de la web
 Antes que nada debemos tener instalado lo siguiente:
 
 * [ruby](https://www.ruby-lang.org/en/documentation/installation/)
 * [Bundler](http://bundler.io/)
 * [Jekyll](http://jekyllrb.com/docs/installation/)
 
-##Instalar dependencias:
+## Instalar dependencias:
 
 ```shell
 $ bundle install
 ```
 
-##Configuración:
+## Configuración:
 Antes que nada para una mejor compresión de como esta formado la estructura de archivos y directorios de este proyecto y jekyll en general,
 dirigirse a la [documentación oficial de jekyll](http://jekyllrb.com/docs/structure/).
 
@@ -63,7 +63,7 @@ Este proyecto esta formado por la siguiente estructura de archivos:
     └── search.json/                 # Script de búsqueda dentro del sitio
 
 
-##Probar el sitio web localmente:
+## Probar el sitio web localmente:
 
 Primero compilamos el proyecto:
 
